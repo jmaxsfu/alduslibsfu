@@ -3,7 +3,7 @@ title: The Aldine Library at SFU
 ---
 
 
-digitizing and remediating
+digitizing *&* remediating
 
 The Wosk-McDonald Aldine Collection
 
