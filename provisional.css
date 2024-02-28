@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap')
+
+nothing {} /*not sure why, but there's some conflict between the @import and the next piece... this is a buffer.*/
+
+
+body { 
+	text-align: center;
+	padding-top: 4em;
+}
+
+h1, p {
+	font-family: EB Garamond, tahoma;
+	font-size: 16pt;
+	font-weight: 400;
+  font-optical-sizing: auto;	
+	font-variant: small-caps;
+	text-transform: lowercase;
+	letter-spacing: 2pt;
+	font-variant-numeric: oldstyle-nums;
+}
