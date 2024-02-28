@@ -1,15 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap')
+@font-face {
+  font-family: "EBGaramond";
+  font-weight: NUMERIC_RANGE_LOW_TO_HIGH;
+  src: url("EBGaramond-VariableFont_wght.ttf") format('truetype');
+/*  THERE WILL HAVE TO BE MORE. THIS IS MINIMAL.*/
+}
+@font-face {
+  font-family: "EBGaramond-Italic";
+  font-weight: NUMERIC_RANGE_LOW_TO_HIGH;
+  src: url("EBGaramond-Italic-VariableFont_wght.ttf") format('truetype');
+/*  THERE WILL HAVE TO BE MORE. THIS IS MINIMAL.*/
+}
 
-nothing {} /*not sure why, but there's some conflict between the @import and the next piece... this is a buffer.*/
-
+i, em {font-family: EBGaramond-Italic, tahoma; }
 
 body { 
 	text-align: center;
 	padding-top: 4em;
+	background-color: #fffbfa;
 }
 
 h1, p {
-	font-family: EB Garamond, tahoma;
+	font-family: EBGaramond, tahoma;
 	font-size: 16pt;
 	font-weight: 400;
   font-optical-sizing: auto;	
