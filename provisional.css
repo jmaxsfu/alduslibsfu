@@ -14,12 +14,17 @@
 i, em {font-family: EBGaramond-Italic, tahoma; }
 
 body { 
+	font-family: EBGaramond, tahoma;
 	text-align: center;
 	padding-top: 4em;
 	background-color: #fffbfa;
 }
 
-h1, p {
+h1.title {
+	margin-bottom: 2em;
+}
+
+h1, h2 {
 	font-family: EBGaramond, tahoma;
 	font-size: 16pt;
 	font-weight: 400;
